@@ -1,6 +1,7 @@
 <p>
   <strong>Title:</strong>
-  <%= @article.title %>
+  <%= @article.title %><br>
+  <small>Created <%= time_ago_in_words @article.created_at %> ago</small>
 </p>
 
 <p>
